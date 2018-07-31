@@ -1,0 +1,222 @@
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . digital.pptx
+pid: 16108
+convert /Users/User1/Projects/powerpointtextextractor/digital.pptx -> /Users/User1/Projects/powerpointtextextractor//digital.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./digital.pdf ./digital.png
+pid: 16115
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16153
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor//ass.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./ass.pdf ./ass.png
+pid: 16154
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx
+pid: 16157
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx -> /Users/User1/Projects/powerpointtextextractor//cat.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./cat.pdf ./cat.png
+pid: 16159
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx
+pid: 16162
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx -> /Users/User1/Projects/powerpointtextextractor//dig.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./dig.pdf ./dig.png
+pid: 16163
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx
+pid: 16166
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx -> /Users/User1/Projects/powerpointtextextractor//rev.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./rev.pdf ./rev.png
+pid: 16167
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx
+pid: 16170
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx -> /Users/User1/Projects/powerpointtextextractor//service.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./service.pdf ./service.png
+pid: 16171
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir . /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx
+pid: 16174
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx -> /Users/User1/Projects/powerpointtextextractor//tal.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 ./tal.pdf ./tal.png
+pid: 16175
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16181
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16183
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx
+pid: 16186
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//cat.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//cat.pdf converted//cat.png
+pid: 16192
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx
+pid: 16196
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//dig.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//dig.pdf converted//dig.png
+pid: 16197
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx
+pid: 16201
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//rev.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//rev.pdf converted//rev.png
+pid: 16202
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx
+pid: 16205
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//service.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//service.pdf converted//service.png
+pid: 16206
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx
+pid: 16209
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//tal.pdf using filter : impress_pdf_Export
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//tal.pdf converted//tal.png
+pid: 16210
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16777
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16782
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx
+pid: 16785
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//cat.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//cat.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//cat.pdf converted//cat.png
+pid: 16788
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx
+pid: 16791
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/dig.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//dig.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//dig.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//dig.pdf converted//dig.png
+pid: 16792
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx
+pid: 16795
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/rev.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//rev.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//rev.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//rev.pdf converted//rev.png
+pid: 16796
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx
+pid: 16799
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/service.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//service.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//service.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//service.pdf converted//service.png
+pid: 16800
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx
+pid: 16803
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/tal.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//tal.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//tal.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//tal.pdf converted//tal.png
+pid: 16804
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16844
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16846
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx
+pid: 16849
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16857
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16862
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16872
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16874
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx
+pid: 16879
+convert status: SUCCESS
+convert /Users/User1/Projects/powerpointtextextractor/powerpoint_files/ass.pptx -> /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf using filter : impress_pdf_Export
+Overwriting: /Users/User1/Projects/powerpointtextextractor/converted//ass.pdf
+/Applications/LibreOffice.app/Contents/MacOS/soffice status: SUCCESS
+
+command: convert -verbose -resize 1200 -density 200 converted//ass.pdf converted//ass.png
+pid: 16880
+convert status: SUCCESS
+
+command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --convert-to pdf --outdir converted/ /Users/User1/Projects/powerpointtextextractor/powerpoint_files/cat.pptx
+pid: 16883

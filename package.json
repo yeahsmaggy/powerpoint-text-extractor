@@ -1,0 +1,13 @@
+{
+  "name": "powerpointtextextractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^0.21.0",
+    "babel-core": "^6.26.3",
+    "ppt-png": "^0.1.8",
+    "pptx-compose": "^0.4.0",
+    "pptx2pdf": "^1.0.10"
+  }
+}
