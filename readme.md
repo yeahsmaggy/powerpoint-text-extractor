@@ -9,4 +9,5 @@ powerpoint_files/
 (put your pptx in here)
 
 converted/
+
 textextracted/
